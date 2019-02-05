@@ -9,7 +9,6 @@ img{
     left: 525px;
 }
 input {
-    -webkit-appearance: none;
     position: absolute;
 }
 #search {
@@ -30,19 +29,23 @@ input {
     top: 190px;
     background-color: #f1f1f1f8;
     height: 37px; width: 125px;
-    border: none;
-    border-radius:2px;
+    border-width: 0px;;
+    border-radius:3px;
+    border-style: outset;
     font-family: arial;
     font-weight: bold;
     font-size: 13px;
     color: #616161f8;
 }
 #srchbutton {
-    left: 525px;  
+    left: 525px; 
 }
 #luckybutton {
     left: 670px;
 }
 #srchbutton:hover, #luckybutton:hover {
-    color: black;
+    color: rgb(29, 29, 29);
+    border-width: 1px;
+    background-color: rgb(245, 245, 245);
+    border-color: #afafaff8;
 }
