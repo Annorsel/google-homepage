@@ -1,0 +1,48 @@
+div {margin: 0; padding: 0;}
+
+.mainel {
+    position: relative;
+    margin: 200px 0px 200px 0px;
+}
+img{
+    position: absolute;
+    left: 525px;
+}
+input {
+    -webkit-appearance: none;
+    position: absolute;
+}
+#search {
+    left: 370px;
+    top: 120px;
+    width:590px;
+    height: 40px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #f1f1f1f8;
+    border-radius: 5px;
+    padding-left:10px;
+    font-family: arial;
+    font-size: 20px;
+
+}
+#srchbutton, #luckybutton {
+    top: 190px;
+    background-color: #f1f1f1f8;
+    height: 37px; width: 125px;
+    border: none;
+    border-radius:2px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+    color: #616161f8;
+}
+#srchbutton {
+    left: 525px;  
+}
+#luckybutton {
+    left: 670px;
+}
+#srchbutton:hover, #luckybutton:hover {
+    color: black;
+}
